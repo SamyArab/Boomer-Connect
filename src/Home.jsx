@@ -1,5 +1,5 @@
 import * as React from "react";
-import ProductCategories from "./modules/views/ProductCategories";
+import Research from "./modules/views/Research";
 import ProductSmokingHero from "./modules/views/ProductSmokingHero";
 import AppFooter from "./modules/views/AppFooter";
 import Landing from "./modules/views/Landing";
@@ -19,6 +19,7 @@ function Home() {
       <AppAppBar />
       <Landing />
       <Problem />
+      <Research />
       <UserPersonas />
       <UserFlow />
       <UserJourneys />
