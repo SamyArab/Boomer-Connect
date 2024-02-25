@@ -1,5 +1,7 @@
 import * as React from "react";
+import { useState } from "react";
 
+import Button from "../components/Button";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
@@ -13,6 +15,32 @@ const item = {
 };
 
 function UserPersonas() {
+  const [activeContentIndex, setActiveContentIndex] = useState(0);
+
+  const content = [
+    <Box
+      component="img"
+      src="src/modules/assets/Eleanor.jpeg"
+      alt="call to action"
+      sx={{
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        maxWidth: 900,
+      }}
+    />,
+    <Box
+      component="img"
+      src="src/modules/assets/William.jpeg"
+      alt="call to action"
+      sx={{
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        maxWidth: 900,
+      }}
+    />,
+  ];
   const introPersona =
     "Here are the 2 personas that represent the main demographic of the application. Each persona card is divided into multiple sections: short biography, quote, free time activities and some personal traits. The card also displays their preferences and requirements for the application. ";
 
@@ -36,29 +64,30 @@ function UserPersonas() {
               </Typography>
               <Typography variant="h5">{introPersona}</Typography>
               <br />
-              <Box
-                component="img"
-                src="src/modules/assets/Eleanor.jpeg"
-                alt="call to action"
-                sx={{
-                  right: 0,
-                  bottom: 0,
-                  width: "100%",
-                  maxWidth: 900,
-                }}
-              />
-              <Box
-                component="img"
-                src="src/modules/assets/William.jpeg"
-                alt="call to action"
-                sx={{
-                  right: 0,
-                  bottom: 0,
-                  width: "100%",
-                  maxWidth: 900,
-                }}
-              />
             </Box>
+
+            <div id="tabs">
+              <menu>
+                <Button
+                  color="secondary"
+                  // variant="contained"
+                  size="large"
+                  className={activeContentIndex === 0 ? "active" : ""}
+                  onClick={() => setActiveContentIndex(0)}
+                >
+                  Eleanor
+                </Button>
+                <Button
+                  // variant="contained"
+                  size="large"
+                  className={activeContentIndex === 1 ? "active" : ""}
+                  onClick={() => setActiveContentIndex(1)}
+                >
+                  William
+                </Button>
+              </menu>
+              <div id="tab-content">{content[activeContentIndex]}</div>
+            </div>
           </Grid>
         </Grid>
       </Container>
