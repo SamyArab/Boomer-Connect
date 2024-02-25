@@ -34,84 +34,113 @@ function Problem() {
                 The Problem
               </Typography>
               <Typography variant="h5">{problem}</Typography>
-              <Typography variant="h5">
+              <Typography variant="h5" >
                 <br />
-                <b>Defining the Key Factors:</b>
-                <br />
-                - Social Isolation: Many elders are victims of social isolation,
+                <h3>Defining the Key Factors:</h3>
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Social Isolation: </Typography> 
+                Many elders are victims of social isolation,
                 and the COVID-19 pandemic only exacerbated the problem. Leading
                 to loneliness and depression, the stakes of social isolation are
                 high. An app that can facilitate social interaction can
-                counteract these feelings. <br />
-                - Limited Access to Healthcare Services: Accessing healthcare
-                services is no easy task for the elderly because they often have
-                mobility issues and don’t have reliable and adapted means of
-                transportation. <br />
-                - Cognitive and Physical Limitations: Cognitive decline, which
+                counteract these feelings. <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Limited Access to Healthcare Services: </Typography> 
+                Accessing healthcareservices is no easy task for the elderly 
+                because they often have mobility issues and don’t have reliable 
+                and adapted means of transportation. <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Cognitive and Physical Limitations: </Typography> 
+                Cognitive decline, which
                 is inevitable with age, along with visual and mobility issues
                 are obstacles when it comes to digital interaction and keeping
-                up with technological advancements. <br />
-                - Safety Concerns: Elderly individuals are more prone to have
+                up with technological advancements. <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Safety Concerns: </Typography> 
+                Elderly individuals are more prone to have
                 health problems, and can often be reluctant to engage in social
                 activities or seek help.
-                <br /> <br /> <br />
+                <br /> <br />
+
                 While the motivating factors are very important to outline, it
                 is also important to consider the stakes a project like this can
                 entail and it is relevant to establish clearly the set of
-                limitations and obstacles we might face.
-                <br /> <br />
-                <b>The challenges to consider:</b>
-                <br />
-                - Accessibility and Usability: It is important to consider that
+                limitations and obstacles we might face.<br /><br />
+
+                
+                <h3>The challenges to consider:</h3>
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Accessibility and Usability: </Typography> 
+                It is important to consider that
                 the targeted population has a relatively more limited experience
                 with technology and they have physical limitations as well. Loss
                 of vision and mobility is very common and must be considered
                 when building the product.
-                <br />
-                - Privacy and Security: Handling sensitive data about a user's
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Privacy and Security: </Typography> 
+                Handling sensitive data about a user's
                 health and social interaction requires a great deal of
                 consideration for privacy and security.
-                <br />
-                - Digital Access: The access to technological devices is not as
+                <br /><br />
+                
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Digital Access: </Typography> 
+                The access to technological devices is not as
                 pronounced in the elderly population and it is important to keep
                 in mind. Some don’t have access to computers or own recent
                 smartphones.
-                <br />
-                - Cultural Context: Cultures and traditions are very diverse in
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Cultural Context: </Typography> 
+                Cultures and traditions are very diverse in
                 the targeted population and the languages can be a barrier since
                 many don’t have a good grasp of the English language.
                 <br /> <br />
               </Typography>
+
               <Typography variant="h5">
-                <b>Proposed approach to possible solutions:</b>
-                <br />
+                <h3>Proposed approach to possible solutions:</h3>
+                
                 To reach a product that will have a lasting impact and offer an
                 effective and relevant improvement to the stated problem, all
                 while considering the possible challenges outlined, we can
                 establish the following steps to ensure a thorough and rigorous
                 design and creation process.
-                <br />
-                - Assessment: To pave the path, we need to proceed to an
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Assessment: </Typography> 
+                To pave the path, we need to proceed to an
                 assessment of the targeted population’s current needs and the
                 challenges they go through on a daily basis. Research, surveys
                 and interviews are all viable options to consider.
-                <br />
-                - User-Centered Design: The user-centered design approach
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">User-Centered Design: </Typography> 
+                The user-centered design approach
                 supports and promotes a more personalized and adapted product
                 for the elderly.
-                <br />
-                - Feature Identification: Using the feedback we gather, we can
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Feature Identification: </Typography> 
+                Using the feedback we gather, we can
                 produce a list of potential features that will target the real
                 issues and can create a more authentic and effective product.
-                <br />
-                - Accessibility: Always keeping in mind that the application and
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Accessibility: </Typography> 
+                Always keeping in mind that the application and
                 all its possible features and added value will amount to nothing
                 if it’s not practical, accessible and user friendly.
-                <br />
-                - Testing and Iteration: Making sure the application is tried
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Testing and Iteration: </Typography> 
+                Making sure the application is tried
                 and true through a rigorous testing process to insure a robust
                 product.
-                <br />- Evaluation and Improvement: Always be open to
+                <br /><br />
+
+                <Typography variant="h5" sx={{textDecoration: 'underline'}} display="inline">Evaluation and Improvement: </Typography> 
+                Always be open to
                 consideration for changes and keep a mindset that nourishes
                 improvement through feedback analysis and measured outcomes.
               </Typography>
