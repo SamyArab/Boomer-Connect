@@ -9,7 +9,7 @@ const item = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  px: 5
+  px: 5,
 };
 
 function UserPersonas() {
@@ -31,31 +31,33 @@ function UserPersonas() {
         <Grid container spacing={1}>
           <Grid item xs={12} md={12}>
             <Box sx={item}>
-              <Typography variant="h4" sx={{ my: 3 }}>
+              <Typography variant="h4" marked="center" sx={{ my: 3 }}>
                 User Personas and Requirements
               </Typography>
               <Typography variant="h5">{introPersona}</Typography>
               <br />
               <Box
-                  component="img"
-                  src="src/modules/assets/Eleanor.jpeg"
-                  alt="call to action"
-                  sx={{
-                    right: 0,
-                    bottom: 0,
-                    width: '100%',
-                    maxWidth: 900
-                }} />
-               <Box
-                  component="img"
-                  src="src/modules/assets/William.jpeg"
-                  alt="call to action"
-                  sx={{
+                component="img"
+                src="src/modules/assets/Eleanor.jpeg"
+                alt="call to action"
+                sx={{
                   right: 0,
                   bottom: 0,
-                  width: '100%',
-                  maxWidth: 900
-                }} />
+                  width: "100%",
+                  maxWidth: 900,
+                }}
+              />
+              <Box
+                component="img"
+                src="src/modules/assets/William.jpeg"
+                alt="call to action"
+                sx={{
+                  right: 0,
+                  bottom: 0,
+                  width: "100%",
+                  maxWidth: 900,
+                }}
+              />
             </Box>
           </Grid>
         </Grid>

@@ -30,7 +30,7 @@ function Problem() {
         <Grid container spacing={1}>
           <Grid item xs={12} md={12}>
             <Box sx={item}>
-              <Typography variant="h4" sx={{ my: 5 }}>
+              <Typography variant="h4" marked="center" sx={{ my: 5 }}>
                 The Problem
               </Typography>
               <Typography variant="h5">{problem}</Typography>
