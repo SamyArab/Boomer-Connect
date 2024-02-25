@@ -2,7 +2,7 @@ import * as React from "react";
 import ProductCategories from "./modules/views/ProductCategories";
 import ProductSmokingHero from "./modules/views/ProductSmokingHero";
 import AppFooter from "./modules/views/AppFooter";
-import ProductHero from "./modules/views/ProductHero";
+import Landing from "./modules/views/Landing";
 import Problem from "./modules/views/Problem";
 import UserPersonas from "./modules/views/UserPersonas";
 import ProductHowItWorks from "./modules/views/ProductHowItWorks";
@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <AppAppBar />
-      <ProductHero />
+      <Landing />
       <Problem />
       <UserPersonas />
       <ProductCategories />

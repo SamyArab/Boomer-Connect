@@ -5,7 +5,7 @@ import { styled } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
-const ProductHeroLayoutRoot = styled("section")(({ theme }) => ({
+const LandingLayoutRoot = styled("section")(({ theme }) => ({
   color: theme.palette.common.white,
   position: "relative",
   display: "flex",
@@ -28,11 +28,11 @@ const Background = styled("div")({
   zIndex: -2,
 });
 
-function ProductHeroLayout(props) {
+function LandingLayout(props) {
   const { sxBackground, children } = props;
 
   return (
-    <ProductHeroLayoutRoot>
+    <LandingLayoutRoot>
       <Container
         sx={{
           mt: 3,
@@ -45,12 +45,6 @@ function ProductHeroLayout(props) {
         <br></br>
         <br></br>
         <br></br>
-        {/* <img
-          src="../assets/productHeroWonder.png"
-          alt=""
-          width="147"
-          height="80"
-        /> */}
         {children}
         <Box
           sx={{
@@ -74,11 +68,11 @@ function ProductHeroLayout(props) {
           sx={{ position: "absolute", bottom: 32 }}
         /> */}
       </Container>
-    </ProductHeroLayoutRoot>
+    </LandingLayoutRoot>
   );
 }
 
-ProductHeroLayout.propTypes = {
+LandingLayout.propTypes = {
   children: PropTypes.node,
   sxBackground: PropTypes.oneOfType([
     PropTypes.arrayOf(
@@ -89,4 +83,4 @@ ProductHeroLayout.propTypes = {
   ]),
 };
 
-export default ProductHeroLayout;
+export default LandingLayout;

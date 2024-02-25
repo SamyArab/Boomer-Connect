@@ -1,15 +1,15 @@
 import * as React from "react";
 import Button from "../components/Button";
 import Typography from "../components/Typography";
-import ProductHeroLayout from "./ProductHeroLayout";
+import LandingLayout from "./LandingLayout";
 
 const backgroundImage =
   "https://media.istockphoto.com/id/1377484520/vector/diverse-senior-people-huddle-smiling-and-standing-together-vector-illustration.jpg?s=612x612&w=0&k=20&c=I21JjwRKfgAEsbSN6ff3fhW6qZqQgtsqxzvGpgy0E2Y=";
 // "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400";
 
-export default function ProductHero() {
+export default function Landing() {
   return (
-    <ProductHeroLayout
+    <LandingLayout
       sxBackground={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundColor: "#7fc7d9", // Average color of the background image.
@@ -56,6 +56,6 @@ export default function ProductHero() {
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
         Lachezara Lazarova - 40211033
       </Typography>
-    </ProductHeroLayout>
+    </LandingLayout>
   );
 }
