@@ -19,7 +19,7 @@ function UserPersonas() {
   return (
     <Box
       component="section"
-      sx={{ display: "flex", overflow: "hidden", bgcolor: "primary" }}
+      sx={{ display: "flex", overflow: "hidden", bgcolor: "secondary.light" }}
     >
       <Container sx={{ mt: 15, mb: 30, display: "flex", position: "relative" }}>
         <Box

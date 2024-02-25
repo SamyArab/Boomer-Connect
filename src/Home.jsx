@@ -1,5 +1,5 @@
 import * as React from "react";
-import ProductCategories from "./modules/views/ProductCategories";
+import Research from "./modules/views/Research";
 import ProductSmokingHero from "./modules/views/ProductSmokingHero";
 import AppFooter from "./modules/views/AppFooter";
 import ProductHero from "./modules/views/ProductHero";
@@ -16,8 +16,8 @@ function Home() {
       <AppAppBar />
       <ProductHero />
       <Problem />
+      <Research />
       <UserPersonas />
-      <ProductCategories />
       <ProductHowItWorks />
       <ProductCTA />
       <ProductSmokingHero />
