@@ -24,7 +24,6 @@ function Home() {
       <UserFlow />
       <UserJourneys />
       <StoryMap />
-      <ProductCategories />
       <ProductHowItWorks />
       <ProductCTA />
       <ProductSmokingHero />
