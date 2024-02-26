@@ -218,6 +218,12 @@ function Design() {
                 Design
               </Typography>
               <Typography variant="h5">{intro}</Typography>
+              <Typography variant="h5">
+                <br />
+                Here is the link to the design mockups file if the pictures are
+                not sufficient:
+                https://www.figma.com/file/rjE0LRyia4NXiiKnlBbr6Z/357-Mini-Project?type=design&node-id=0%3A1&mode=design&t=fuijxLMOc182ypaI-1
+              </Typography>
               <br />
             </Box>
 
