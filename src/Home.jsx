@@ -11,6 +11,7 @@ import Solution from "./modules/views/Solution";
 import AppAppBar from "./modules/views/AppAppBar";
 import withRoot from "./modules/withRoot";
 import Evidence from "./modules/views/Evidence";
+import Sketch from "./modules/views/Sketches";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <UserFlow />
       <UserJourneys />
       <StoryMap />
+      <Sketch />
       <Evidence />
       <AppFooter />
     </>
