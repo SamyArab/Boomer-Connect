@@ -26,7 +26,7 @@ function AppAppBar() {
             {"Boomer Connect"}
           </Link>
           <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
-            <Link
+            {/* <Link
               color="inherit"
               variant="h6"
               underline="none"
@@ -42,7 +42,7 @@ function AppAppBar() {
               sx={{ ...rightLink, color: "secondary.main" }}
             >
               {"Sign Up"}
-            </Link>
+            </Link> */}
           </Box>
         </Toolbar>
       </AppBar>

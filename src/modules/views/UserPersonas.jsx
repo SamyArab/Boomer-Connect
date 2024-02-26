@@ -78,6 +78,7 @@ function UserPersonas() {
                   Eleanor
                 </Button>
                 <Button
+                  style ={{color:"#364cff"}}
                   // variant="contained"
                   size="large"
                   className={activeContentIndex === 1 ? "active" : ""}
