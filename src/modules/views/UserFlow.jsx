@@ -40,7 +40,7 @@ function UserFlow() {
               <br />
               <Box
                 component="img"
-                src="src/modules/assets/UserFlow.jpeg"
+                src="/flow/UserFlow.jpeg"
                 alt="call to action"
                 sx={{
                   right: 0,
