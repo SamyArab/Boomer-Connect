@@ -20,7 +20,7 @@ function Sketch() {
   const content = [
     <Box
       component="img"
-      src="src/modules/assets/SketchPage1.jpeg"
+      src="/sketch/SketchPage1.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -31,7 +31,7 @@ function Sketch() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/SketchPage2.jpeg"
+      src="/sketch/SketchPage2.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -42,7 +42,7 @@ function Sketch() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/SketchPage3.jpeg"
+      src="/sketch/SketchPage3.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -53,7 +53,7 @@ function Sketch() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/SketchPage4.jpeg"
+      src="/sketch/SketchPage4.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -63,6 +63,8 @@ function Sketch() {
       }}
     />,
   ];
+  const intro =
+    "The following sketches are handwritten possible designs for the application. This step always precedes the design stage as it is faster to correct and can produce multiple designs at a faster pace. These sketches also display the wireframe of the application. The wireframe shows the flow of the product as in: which page proceeds which. This way it also helps the developers to know which page to build first.";
 
   return (
     <Box
@@ -82,6 +84,7 @@ function Sketch() {
               <Typography variant="h4" marked="center" sx={{ my: 3 }}>
                 Sketches and Wireframes
               </Typography>
+              <Typography variant="h5">{intro}</Typography>
               <br />
             </Box>
 

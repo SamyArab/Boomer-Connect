@@ -61,7 +61,7 @@ export default function AppFooter() {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={6} sm={4} md={2}>
+          {/* <Grid item xs={6} sm={4} md={2}>
             <Typography variant="h6" marked="left" gutterBottom>
               Legal
             </Typography>
@@ -73,12 +73,12 @@ export default function AppFooter() {
                 <Link href="">Privacy</Link>
               </Box>
             </Box>
-          </Grid>
-          <Grid item xs={6} sm={8} md={4}>
-            <Typography variant="h6" marked="left" gutterBottom>
+          </Grid> */}
+          {/* <Grid item xs={6} sm={8} md={4}> */}
+            {/* <Typography variant="h6" marked="left" gutterBottom>
               Language
-            </Typography>
-            <TextField
+            </Typography> */}
+            {/* <TextField
               select
               size="medium"
               variant="standard"
@@ -92,8 +92,8 @@ export default function AppFooter() {
                   {language.name}
                 </option>
               ))}
-            </TextField>
-          </Grid>
+            </TextField> */}
+          {/* </Grid> */}
         </Grid>
       </Container>
     </Typography>

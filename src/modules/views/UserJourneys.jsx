@@ -20,7 +20,7 @@ function UserJourneys() {
   const content = [
     <Box
       component="img"
-      src="src/modules/assets/UserJourney1.jpeg"
+      src="/journey/UserJourney1.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -31,7 +31,7 @@ function UserJourneys() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/UserJourney2.jpeg"
+      src="/journey/UserJourney2.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -42,7 +42,7 @@ function UserJourneys() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/UserJourney3.jpeg"
+      src="/journey/UserJourney3.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -80,6 +80,7 @@ function UserJourneys() {
             <div id="tabs">
               <menu>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="large"
                   className={activeContentIndex === 0 ? "active" : ""}
@@ -96,6 +97,7 @@ function UserJourneys() {
                   User Journey 2
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="large"
                   className={activeContentIndex === 2 ? "active" : ""}

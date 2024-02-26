@@ -40,7 +40,7 @@ function StoryMap() {
               <br />
               <Box
                 component="img"
-                src="src/modules/assets/StoryMap.jpeg"
+                src="/story/StoryMap.jpeg"
                 alt="call to action"
                 sx={{
                   right: 0,

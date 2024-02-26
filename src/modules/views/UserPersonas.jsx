@@ -20,7 +20,7 @@ function UserPersonas() {
   const content = [
     <Box
       component="img"
-      src="src/modules/assets/Eleanor.jpeg"
+      src="/persona/Eleanor.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -31,7 +31,7 @@ function UserPersonas() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/William.jpeg"
+      src="/persona/William.jpeg"
       alt="call to action"
       sx={{
         right: 0,

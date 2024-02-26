@@ -20,7 +20,7 @@ function Design() {
   const content = [
     <Box
       component="img"
-      src="src/modules/assets/Design1.jpeg"
+      src="/designs/Design1.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -31,7 +31,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design2.jpeg"
+      src="/designs/Design2.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -42,7 +42,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design3.jpeg"
+      src="/designs/Design3.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -53,7 +53,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design4.jpeg"
+      src="/designs/Design4.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -64,7 +64,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design5.jpeg"
+      src="/designs/Design5.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -75,7 +75,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design6.jpeg"
+      src="/designs/Design6.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -86,7 +86,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design7.jpeg"
+      src="/designs/Design7.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -97,7 +97,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design8.jpeg"
+      src="/designs/Design8.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -108,7 +108,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design9.jpeg"
+      src="/designs/Design9.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -119,7 +119,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design10.jpeg"
+      src="/designs/Design10.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -130,7 +130,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design11.jpeg"
+      src="/designs/Design11.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -141,7 +141,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design12.jpeg"
+      src="/designs/Design12.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -152,7 +152,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design13.jpeg"
+      src="/designs/Design13.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -163,7 +163,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design14.jpeg"
+      src="/designs/Design14.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -174,7 +174,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design15.jpeg"
+      src="/designs/Design15.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -185,7 +185,7 @@ function Design() {
     />,
     <Box
       component="img"
-      src="src/modules/assets/Design16.jpeg"
+      src="/designs/Design16.jpeg"
       alt="call to action"
       sx={{
         right: 0,
@@ -224,6 +224,7 @@ function Design() {
             <div id="tabs">
               <menu>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 0 ? "active" : ""}
@@ -240,6 +241,7 @@ function Design() {
                   2
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 2 ? "active" : ""}
@@ -256,6 +258,7 @@ function Design() {
                   4
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 4 ? "active" : ""}
@@ -272,6 +275,7 @@ function Design() {
                   6
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 6 ? "active" : ""}
@@ -288,6 +292,7 @@ function Design() {
                   8
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 8 ? "active" : ""}
@@ -304,6 +309,7 @@ function Design() {
                   10
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 10 ? "active" : ""}
@@ -320,6 +326,7 @@ function Design() {
                   12
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 12 ? "active" : ""}
@@ -336,6 +343,7 @@ function Design() {
                   14
                 </Button>
                 <Button
+                  color="secondary"
                   // variant="contained"
                   size="small"
                   className={activeContentIndex === 14 ? "active" : ""}
