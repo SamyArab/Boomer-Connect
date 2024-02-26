@@ -20,7 +20,7 @@ function Evidence() {
   const questions = [
     <Box
       component="img"
-      src="/1-qst.png"
+      src="/questions/1-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -31,7 +31,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/2-qst.png"
+      src="/questions/2-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -42,7 +42,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/3-qst.png"
+      src="/questions/3-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -53,7 +53,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/4-qst.png"
+      src="/questions/4-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -64,7 +64,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/5-qst.png"
+      src="/questions/5-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -75,7 +75,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/6-qst.png"
+      src="/questions/6-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -86,7 +86,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/7-qst.png"
+      src="/questions/7-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -97,7 +97,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/8-qst.png"
+      src="/questions/8-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -108,7 +108,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/9-qst.png"
+      src="/questions/9-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -119,7 +119,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/10-qst.png"
+      src="/questions/10-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -130,7 +130,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/11-qst.png"
+      src="/questions/11-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -141,7 +141,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/12-qst.png"
+      src="/questions/12-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -152,7 +152,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/13-qst.png"
+      src="/questions/13-qst.png"
       alt="call to action"
       sx={{
         right: 0,
@@ -163,7 +163,7 @@ function Evidence() {
     />,
     <Box
       component="img"
-      src="src/modules/questions/14-qst.png"
+      src="/questions/14-qst.png"
       alt="call to action"
       sx={{
         right: 0,
