@@ -28,8 +28,8 @@ function Home() {
       <UserJourneys />
       <UserScenarios />
       <StoryMap />
-      <Design />
       <Sketch />
+      <Design />
       <Evidence />
       <AppFooter />
     </>

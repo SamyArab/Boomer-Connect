@@ -15,14 +15,13 @@ const item = {
 };
 
 function UserFlow() {
-
   const intro =
     "A user flow is a diagram showing the path that any user takes or can take to complete their tasks. It helps to demonstrate to clients how the application will be interconnected and gives a chance for the client to have an idea of the flow of the application. Having a similar diagram is very useful, especially at the beginning of projects, because it helps the developers as well to know how to construct the product. Below you will find the user flow diagram for our application. ";
 
   return (
     <Box
       component="section"
-      sx={{ display: "flex", overflow: "hidden", bgcolor: "primary" }}
+      sx={{ display: "flex", overflow: "hidden", bgcolor: "secondary.light" }}
     >
       <Container sx={{ mt: 15, mb: 30, display: "flex", position: "relative" }}>
         <Box
@@ -49,7 +48,8 @@ function UserFlow() {
                   width: "100%",
                   maxWidth: 900,
                 }}
-              />,
+              />
+              ,
             </Box>
           </Grid>
         </Grid>
