@@ -1,6 +1,5 @@
 import * as React from "react";
 import Research from "./modules/views/Research";
-import ProductSmokingHero from "./modules/views/ProductSmokingHero";
 import AppFooter from "./modules/views/AppFooter";
 import Landing from "./modules/views/Landing";
 import Problem from "./modules/views/Problem";
@@ -8,8 +7,7 @@ import UserPersonas from "./modules/views/UserPersonas";
 import UserFlow from "./modules/views/UserFlow";
 import UserJourneys from "./modules/views/UserJourneys";
 import StoryMap from "./modules/views/StoryMap";
-import ProductHowItWorks from "./modules/views/ProductHowItWorks";
-import ProductCTA from "./modules/views/ProductCTA";
+import Solution from "./modules/views/Solution";
 import AppAppBar from "./modules/views/AppAppBar";
 import withRoot from "./modules/withRoot";
 
@@ -21,12 +19,10 @@ function Home() {
       <Problem />
       <Research />
       <UserPersonas />
+      <Solution />
       <UserFlow />
       <UserJourneys />
       <StoryMap />
-      <ProductHowItWorks />
-      <ProductCTA />
-      <ProductSmokingHero />
       <AppFooter />
     </>
   );
