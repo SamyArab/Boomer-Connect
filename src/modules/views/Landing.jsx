@@ -4,7 +4,7 @@ import Typography from "../components/Typography";
 import LandingLayout from "./LandingLayout";
 
 const backgroundImage =
-  "https://media.istockphoto.com/id/1377484520/vector/diverse-senior-people-huddle-smiling-and-standing-together-vector-illustration.jpg?s=612x612&w=0&k=20&c=I21JjwRKfgAEsbSN6ff3fhW6qZqQgtsqxzvGpgy0E2Y=";
+  "https://as2.ftcdn.net/v2/jpg/02/48/34/51/1000_F_248345193_IDwY3gH9VUteSS9I6ipGvlILsY2YS36b.jpg";
 // "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400";
 
 export default function Landing() {
@@ -28,23 +28,14 @@ export default function Landing() {
       <Typography
         color="inherit"
         align="center"
-        variant="h5"
+        variant="h4"
         sx={{ mb: 4, mt: { xs: 4, sm: 10 } }}
       >
         SOEN 357 Mini Project
       </Typography>
-      <Button
-        color="secondary"
-        variant="contained"
-        size="large"
-        component="a"
-        href="/premium-themes/onepirate/sign-up/"
-        sx={{ minWidth: 200 }}
-      >
-        Register
-      </Button>
+  
       <br></br>
-      <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
+      <Typography variant="h5" color="inherit" sx={{ mt: 2 }}>
         Made By
       </Typography>
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>

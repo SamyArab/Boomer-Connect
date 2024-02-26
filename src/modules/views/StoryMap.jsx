@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
 
-import Button from "../components/Button";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
@@ -17,7 +16,7 @@ const item = {
 function StoryMap() {
 
   const intro =
-    "";
+    "Story mapping is used to map a project’s user sorties. It is divided into 3 parts: activities, steps and details. Activities represent the main goals and actions of a product. Steps represent the main steps done by the user to achieve their goal and details represent the small details that the product does. In this case, the details of each activity are put directly under their activity. ";
 
   return (
     <Box

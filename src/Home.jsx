@@ -7,10 +7,10 @@ import Problem from "./modules/views/Problem";
 import UserPersonas from "./modules/views/UserPersonas";
 import UserFlow from "./modules/views/UserFlow";
 import UserJourneys from "./modules/views/UserJourneys";
+import UserScenarios from "./modules/views/UserScenarios";
 import StoryMap from "./modules/views/StoryMap";
-import ProductHowItWorks from "./modules/views/ProductHowItWorks";
-import ProductCTA from "./modules/views/ProductCTA";
 import AppAppBar from "./modules/views/AppAppBar";
+import Design from "./modules/views/Design";
 import withRoot from "./modules/withRoot";
 
 function Home() {
@@ -23,11 +23,9 @@ function Home() {
       <UserPersonas />
       <UserFlow />
       <UserJourneys />
+      <UserScenarios />
       <StoryMap />
-      <ProductCategories />
-      <ProductHowItWorks />
-      <ProductCTA />
-      <ProductSmokingHero />
+      <Design />
       <AppFooter />
     </>
   );
