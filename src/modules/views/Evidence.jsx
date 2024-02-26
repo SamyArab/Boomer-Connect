@@ -20,7 +20,7 @@ function Evidence() {
   const questions = [
     <Box
       component="img"
-      src="src/modules/questions/1-qst.png"
+      src="/1-qst.png"
       alt="call to action"
       sx={{
         right: 0,
