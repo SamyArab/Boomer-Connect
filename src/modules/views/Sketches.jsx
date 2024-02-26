@@ -67,7 +67,7 @@ function Sketch() {
   return (
     <Box
       component="section"
-      sx={{ display: "flex", overflow: "hidden", bgcolor: "secondary.light" }}
+      sx={{ display: "flex", overflow: "hidden", bgcolor: "primary" }}
     >
       <Container sx={{ mt: 15, mb: 30, display: "flex", position: "relative" }}>
         <Box
