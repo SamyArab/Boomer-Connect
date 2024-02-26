@@ -10,6 +10,7 @@ import StoryMap from "./modules/views/StoryMap";
 import Solution from "./modules/views/Solution";
 import AppAppBar from "./modules/views/AppAppBar";
 import withRoot from "./modules/withRoot";
+import Evidence from "./modules/views/Evidence";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <UserFlow />
       <UserJourneys />
       <StoryMap />
+      <Evidence />
       <AppFooter />
     </>
   );
